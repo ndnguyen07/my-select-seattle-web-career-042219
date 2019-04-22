@@ -1,8 +1,8 @@
 def my_select(collection)
  i = 0
- array = []
+ select = []
  while i < collection.lenght
  if yield (collection[i])
-   array.push collection
+   select.push collection
    
 end
