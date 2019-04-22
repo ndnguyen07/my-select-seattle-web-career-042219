@@ -3,5 +3,5 @@ def my_select(collection)
  array = []
  while i < collection.lenght
  if yield (collection[i])
-   
+   sellect.push collection
 end
